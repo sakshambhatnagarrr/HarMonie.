@@ -17,6 +17,23 @@ HarMonie. acts as an HS Code Verifier:
 
 - 🔨**Courier & Package Tracking:** A Seller uploads the details of the package such as the tracking number, Destination etc. The website uses this data to track the package.
 
+# Tech Stack used
+
+**Frontend**
+-React 19 with TypeScript,
+Vite 6 (build tool),
+Tailwind CSS v4,
+Lucide React (icons),
+Motion/Framer Motion (animations).
+
+**Backend**
+-Node.js with Express 4,
+TypeScript (via tsx for dev, esbuild for prod).
+
+**AI / APIs**
+-Google Gemini API (@google/genai) — used for HS code classification, tariff search briefings, and multimodal invoice/image parsing
+-Models referenced: gemini-3.1-pro-preview (classification) and gemini-3.6-flash (tariff search).
+
 > As a first year student, This project represents my first dive into building real world software under a deadline. Pushed my limits, learnt a bunch of things on the fly and used AI tools to turn my idea into a fuctional prototype.
 
 Built with LOTS of ENTHUSIASM, Late Night Coffee's and lots of learning! :D
