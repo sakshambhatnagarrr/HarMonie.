@@ -1,0 +1,6 @@
+{
+  "name": "HarMonie.",
+  "description": "AI Customs & Compliance Engine with product HS code classification, WCO/CBIC tariff database search, carrier package tracking, and customs declarations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
