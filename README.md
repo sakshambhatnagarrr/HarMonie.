@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀HarMonie.
+> An Import/Export Business tool that helps to get the HS code associated with the specified item. It was built for "build with Gemini XPrize" Hackathon.
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 💡About The Project
 
-View your app in AI Studio: https://ai.studio/apps/8b96f538-92c6-4ac3-86ef-7f925d9c6067
+💥 The Massive Problem
 
-## Run Locally
+Cross-border e-commerce sellers, micro-exporters, and logistics startups spend billions annually on trade consultants and customs brokers to navigate shifting international tariffs, Harmonized System (HS) product code classifications, export documentation, and local import regulations. A single misclassified product code or missing compliance certificate can result in held shipments, heavy fines, or seized inventory.
 
-**Prerequisites:**  Node.js
+🚀 The Product & How Gemini Powers It
 
+HarMonie. acts as an HS Code Verifier:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- 🔨**Multimodal Invoice & Product Parsing:** A seller uploads product images, raw bills of materials, or PDF invoices. Gemini’s vision capabilities inspect the physical attributes and chemical/material composition of the items.
+
+- 🔨**Courier & Package Tracking:** A Seller uploads the details of the package such as the tracking number, Destination etc. The website uses this data to track the package.
+
+> As a first year student, This project represents my first dive into building real world software under a deadline. Pushed my limits, learnt a bunch of things on the fly and used AI tools to turn my idea into a fuctional prototype.
+
+Built with LOTS of ENTHUSIASM, Late Night Coffee's and lots of learning! :D
